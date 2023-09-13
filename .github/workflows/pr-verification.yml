@@ -17,5 +17,7 @@ jobs:
           node-version: 18
       # Install dependencies
       - run: npm ci
+      # Check Formatting
+      - run: npm run format:check
       # Run tests
       - run: npm test

@@ -9,8 +9,9 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts",
-		"format": "prettier \"**/*\" --ignore-unknown",
-		"format:write": "npm run format -- --write",
+		"format": "prettier . --ignore-unknown --log-level=warn",
+		"format:check": "npm run format -- --check",
+		"format:fix": "npm run format -- --write",
 		"prepare": "husky install",
 		"test": "vitest run",
 		"test:watch": "vitest watch"
