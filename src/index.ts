@@ -1,3 +1,3 @@
 export const hello = () => {
-  console.log("Hello from dotconfig");
+	console.log("Hello from dotconfig");
 };
