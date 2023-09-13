@@ -19,5 +19,7 @@ jobs:
       - run: npm ci
       # Check Formatting
       - run: npm run format:check
+      # Check linting
+      - run: npm run lint:check
       # Run tests
       - run: npm test
