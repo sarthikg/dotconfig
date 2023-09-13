@@ -10,7 +10,8 @@
   },
   "author": "Sarthik Gupta",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "vitest": "^0.34.4",
     "@types/node": "^18.17.15",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
